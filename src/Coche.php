@@ -22,7 +22,7 @@ class Coche
 
     public function circula($a){
 
-        if ($a<$this->autonomia){
+        if ($a<$this->autonomia){ 
             return $this->autonomia-$a;
             $this->kmtotales+=$a;
         }
